@@ -1,22 +1,28 @@
+body{
+  background-image: url('./assets/JusticeLeague.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  color: #000;
+}
 .App {
   text-align: center;
+  padding: 5%;
+}
+/* .App-header{
+  color: rgba(255,255,255,0.6);
+  width: 50%;
+  background: #fff; 
+} */
+.list-item{
+  display: inline-block;
+}
+.list-group .list-group-item{
+  background-color: rgba(255,255,255,0.6);
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.right-btn{
+  cursor: pointer;
+  float: right;
 }
